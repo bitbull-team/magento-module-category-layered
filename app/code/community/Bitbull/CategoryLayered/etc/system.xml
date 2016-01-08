@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <bitbulltab translate="label" module="bitbull_categorylayered">
+            <label>BITBULL</label>
+            <sort_order>999</sort_order>
+        </bitbulltab>
+    </tabs>
+    <sections>
+        <bitbull_categorylayered translate="label" module="bitbull_categorylayered">
+            <label>Category Layered Navigation</label>
+            <tab>bitbulltab</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <configuration translate="label" module="bitbull_categorylayered">
+                    <label>Configuration</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <categories translate="label">
+                            <label>Category List</label>
+                            <comment>List of categories to use in layered navigation</comment>
+                            <frontend_model>bitbull_categorylayered/config_categories</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </categories>
+                    </fields>
+                </configuration>
+            </groups>
+        </bitbull_categorylayered>
+    </sections>
+</config>

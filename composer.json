@@ -1,0 +1,16 @@
+{
+    "name": "bitbull/magento-module-category-layered",
+    "license":"proprietary",
+    "type": "magento-module",
+    "description": "Module for using categories as attributes in layered navigation.",
+    "homepage": "",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Nadia Sala",
+            "email":"nadia.sala@bitbull.it"
+        }
+    ]
+}

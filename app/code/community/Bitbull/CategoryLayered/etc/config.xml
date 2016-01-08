@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bitbull_CategoryLayered>
+            <version>1.0</version>
+        </Bitbull_CategoryLayered>
+    </modules>
+    <global>
+        <blocks>
+            <bitbull_categorylayered>
+                <class>Bitbull_CategoryLayered_Block</class>
+            </bitbull_categorylayered>
+        </blocks>
+        <helpers>
+            <bitbull_categorylayered>
+                <class>Bitbull_CategoryLayered_Helper</class>
+            </bitbull_categorylayered>
+        </helpers>
+        <models>
+            <bitbull_categorylayered>
+                <class>Bitbull_CategoryLayered_Model</class>
+            </bitbull_categorylayered>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <bitbull_categorylayered>
+                    <file>bitbull/categorylayered.xml</file>
+                </bitbull_categorylayered>
+            </updates>
+        </layout>
+    </frontend>
+</config>

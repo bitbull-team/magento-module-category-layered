@@ -30,7 +30,7 @@ class Bitbull_CategoryLayered_Block_Catalog_Layer_View extends Mage_Catalog_Bloc
     protected function _initBlocks()
     {
         parent::_initBlocks();
-        $this->_categoryLayeredBlockName = 'bitbull_categorylayered/catalog_layer_filter_categorylayered';
+        $this->_categoryLayeredBlockName = 'bitbull_categorylayered/catalog_layer_filter_categoryLayered';
     }
 
     /**

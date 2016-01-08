@@ -13,7 +13,7 @@ class Bitbull_CategoryLayered_Block_Catalog_Layer_Filter_CategoryLayered extends
     public function __construct()
     {
         parent::__construct();
-        $this->_filterModelName = 'bitbull_categorylayered/catalog_layer_filter_categorylayered';
+        $this->_filterModelName = 'bitbull_categorylayered/catalog_layer_filter_categoryLayered';
     }
 
     /**

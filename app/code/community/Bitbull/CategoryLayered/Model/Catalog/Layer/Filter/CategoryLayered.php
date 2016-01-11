@@ -58,8 +58,6 @@ class Bitbull_CategoryLayered_Model_Catalog_Layer_Filter_CategoryLayered extends
             $this->getLayer()->getProductCollection()
                 ->joinTable(array($tableAlias => 'catalog/category_product_index'), "product_id=entity_id", array($tableAlias.'_cat_id' => 'category_id', $tableAlias.'_store_id' => 'store_id'), $conditions, 'inner');
 
-            //echo (string) $this->getLayer()->getProductCollection()->getSelect();exit;
-
             // add filter to layer state
             $this->getLayer()->getState()->addFilter(
                 $this->_createItem($this->_appliedCategory->getName(), $filter)

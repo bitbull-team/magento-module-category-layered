@@ -40,12 +40,14 @@ class Bitbull_CategoryLayered_Block_Catalog_Layer_View extends Mage_Catalog_Bloc
      */
     protected function _prepareLayout()
     {
+        /** @var Mage_Catalog_Model_Category $current_category */
+        $current_category = Mage::helper('catalog')->getCategory();
+
         foreach ($this->_layeredCategories as $layeredCatConfig) {
 
             $categoryId = $layeredCatConfig['category'];
 
             // check if current category navigation is in path of categorylayered
-            $current_category = Mage::helper('catalog')->getCategory();
             if ($current_category->getId() && in_array($categoryId, $current_category->getPathIds())) {
                 continue;
             }

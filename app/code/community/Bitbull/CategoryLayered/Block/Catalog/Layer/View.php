@@ -21,7 +21,7 @@ class Bitbull_CategoryLayered_Block_Catalog_Layer_View extends Mage_Catalog_Bloc
     protected $_layeredCategories;
 
 
-    public function __construct(){
+    public function __construct(array $args = array()){
 
         parent::__construct();
         $this->_layeredCategories = Mage::helper('bitbull_categorylayered')->getConfigConfigurationCategories();

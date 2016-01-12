@@ -64,7 +64,7 @@ class Bitbull_CategoryLayered_Model_Catalog_Layer_Filter_CategoryLayered extends
             );
 
             // if current applied category has no children reset items array (for hiding filter block)
-            if (!$this->_appliedCategory->getChildrenCategories()->count()) {
+            if (!$this->_appliedCategory->getChildrenCategories()) {
                 $this->_items = array();
             }
 

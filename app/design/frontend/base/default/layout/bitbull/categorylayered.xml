@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout version="0.1.0">
     <catalog_category_layered>
-        <!-- Remove Magento layered navigation -->
-        <remove name="catalog.leftnav"/>
-        <!-- Add our layered navigation replacement -->
         <reference name="left">
-            <block type="bitbull_categorylayered/catalog_layer_view" name="bitbull_categorylayered.catalog.leftnav"
+            <action method="unsetChild"><name>catalog.leftnav</name></action>
+            <block type="bitbull_categorylayered/catalog_layer_view" name="catalog.leftnav"
                    template="catalog/layer/view.phtml">
-                <block type="core/text_list" name="catalog.leftnav.state.renderers" as="state_renderers" />
+                <block type="core/text_list" name="catalog.leftnav.state.renderers" as="state_renderers"/>
             </block>
         </reference>
     </catalog_category_layered>

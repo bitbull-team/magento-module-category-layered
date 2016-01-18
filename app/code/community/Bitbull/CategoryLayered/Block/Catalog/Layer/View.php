@@ -88,13 +88,13 @@ class Bitbull_CategoryLayered_Block_Catalog_Layer_View extends Mage_Catalog_Bloc
                     array_slice(
                         $filters,
                         0,
-                        $position - 1
+                        $position
                     ),
                     array($categoryFilter),
                     array_slice(
                         $filters,
-                        $position - 1,
-                        count($filters) - 1
+                        $position,
+                        count($filters)
                     )
                 );
             }

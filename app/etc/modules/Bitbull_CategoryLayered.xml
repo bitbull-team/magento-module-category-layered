@@ -4,6 +4,9 @@
         <Bitbull_CategoryLayered>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <Mage_Catalog/>
+            </depends>
         </Bitbull_CategoryLayered>
     </modules>
 </config>

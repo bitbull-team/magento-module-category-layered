@@ -10,6 +10,11 @@
             <bitbull_categorylayered>
                 <class>Bitbull_CategoryLayered_Block</class>
             </bitbull_categorylayered>
+            <catalog>
+                <rewrite>
+                    <layer_view>Bitbull_CategoryLayered_Block_Catalog_Layer_View</layer_view>
+                </rewrite>
+            </catalog>
         </blocks>
         <helpers>
             <bitbull_categorylayered>
@@ -22,7 +27,7 @@
             </bitbull_categorylayered>
         </models>
     </global>
-    <frontend>
+    <!--frontend>
         <layout>
             <updates>
                 <bitbull_categorylayered>
@@ -30,5 +35,5 @@
                 </bitbull_categorylayered>
             </updates>
         </layout>
-    </frontend>
+    </frontend-->
 </config>

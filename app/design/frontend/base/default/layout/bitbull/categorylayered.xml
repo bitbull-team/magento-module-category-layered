@@ -2,9 +2,12 @@
 <layout version="0.1.0">
     <catalog_category_layered>
         <reference name="left">
-            <action method="unsetChild"><name>catalog.leftnav</name></action>
-            <block type="bitbull_categorylayered/catalog_layer_view" name="catalog.leftnav"
-                   template="catalog/layer/view.phtml">
+            <!--
+            removing block named "catalog.leftnav" and replacing it with custom block with different name
+            cause inconsistence with Mage_ColorSwatches module (it doesn't recognize block for show swatches)
+            -->
+            <remove name="catalog.leftnav" />
+            <block type="bitbull_categorylayered/catalog_layer_view" name="bitbull.catalog.leftnav" template="catalog/layer/view.phtml">
                 <block type="core/text_list" name="catalog.leftnav.state.renderers" as="state_renderers"/>
             </block>
         </reference>

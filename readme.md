@@ -9,7 +9,7 @@ Facts
 - extension on Magento Connect: -
 - Magento Connect 1.0 extension key: -
 - Magento Connect 2.0 extension key: -
-- [extension on Bitbucket](https://bitbucket.org/bitbull/magento-module-category-layered)
+- [extension on GitHub](https://github.com/bitbull-team/magento-module-category-layered)
 
 Description
 -----------
@@ -46,11 +46,11 @@ No SQL query is need to be run after removing the extension files.
 
 Support
 -------
-If you have any issues with this extension you can send an email to Nadia Sala <nadia.sala@bitbull.it>
+If you have any issue with this extension you can [open an issue on GitHub](https://github.com/bitbull-team/magento-module-category-layered/issues)
 
 Contribution
 ------------
-Any contributions are highly appreciated. Ideas or code fixex can be discussed via email to Nadia Sala <nadia.sala@bitbull.it>
+Any contributions are highly appreciated. Ideas or code improvements can be discussed opening a [pull request on GitHub](https://help.github.com/articles/using-pull-requests)
 
 Developer
 ---------
